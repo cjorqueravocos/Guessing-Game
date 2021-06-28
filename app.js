@@ -12,9 +12,9 @@ let attempts = 1;
 while (guess !== targetNum) {
     attempts++;
     if (guess > targetNum) {
-        guess = parseInt(prompt("Too high! Enter a new guess...")
+        guess = parseInt(prompt("Too high! Enter a new guess..."))
     } else {
-        guess = parseInt(prompt("Too low! Enter a new guess...")
+        guess = parseInt(prompt("Too low! Enter a new guess..."))
     }
 }
 
