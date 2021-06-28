@@ -14,3 +14,5 @@ while (guess !== targetNum) {
         guess = parseInt(prompt("Too low! Enter a new guess...")
     }
 }
+
+console.log("You got it!")
