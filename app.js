@@ -9,8 +9,8 @@ console.log(targetNum);
 let guess = parseInt(prompt("Enter your first guess"));
 while (guess !== targetNum) {
     if (guess > targetNumb) {
-        guess = prompt("Too high! Enter a new guess...")
+        guess = parseInt(prompt("Too high! Enter a new guess...")
     } else {
-        guess = prompt("Too low! Enter a new guess...")
+        guess = parseInt(prompt("Too low! Enter a new guess...")
     }
 }
