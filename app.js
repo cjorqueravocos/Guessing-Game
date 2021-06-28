@@ -5,3 +5,12 @@ while (!maximum) {
 
 const targetNum = Math.floor(Math.random() * maximum) + 1 ;
 console.log(targetNum);
+
+let guess = parseInt(prompt("Enter your first guess"));
+while (guess !== targetNum) {
+    if (guess > targetNumb) {
+        guess = prompt("Too high! Enter a new guess...")
+    } else {
+        guess = prompt("Too low! Enter a new guess...")
+    }
+}
